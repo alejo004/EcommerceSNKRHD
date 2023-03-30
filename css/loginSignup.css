@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+	--bg: #0F1011;
+	--bg2: rgb(27, 28, 30);
+    --bg-transparente: rgba(27, 28, 30, .9);
+    --hueso: #F1F1CF;
+    --hueso-osc: #e6e6a8;
+    --beish: #E8EEAF;
+    --gris-osc: #1f1f1f;
+
+/*Los que no creo usar y voy a terminar eliminando*/
+
+	--amarillo: #daf708;
+	--amarillo-2: #6f720e;
+	--amarillo-pastel: #E8F022;
+	--gris: #E8E8E2;
+	--gris-2: #e0e1dd;
+	--gris-osc: #505050;
+	--rojo: #d80707;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', 'sans-serif;';
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+small {
+	font-size: .7rem;
+	color: var(--rojo);
+	text-align: center;
+}
+
+.wrapper {
+	background-image: url(../img/img__brands/brand8.gif);
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper__signup {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor-izq {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.contenedor-izq__signup {
+	background-image: url(../img/img__brands/brand3.png);
+	background-size: cover;
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.contenedor-izq__h3 {
+	font-size: 1.6rem;
+}
+
+.contenedor-izq__span {
+	font-size: .9rem;
+}
+
+.contenedor-izq__span a {
+	color: #000;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+
+.contenedor-der {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: var(--hueso);
+}
+
+.contenedor-der-info {
+	height: 50%;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contenedor-der__h3 {
+	font-size: 2.3rem;
+}
+
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.email, .password {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: .5rem;
+}
+
+.input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #000;
+	border-radius: .3rem;
+	background: var(--hueso);
+	padding: 5px 0;
+	text-align: center;
+}
+
+.submit {
+	width: 40%;
+	border: 1px solid #000;
+	background: var(--beish);
+	cursor: pointer;
+}

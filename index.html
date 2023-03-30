@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/indexCart.css">
+	<link rel="stylesheet" href="css/indexCartmq.css">
+	<script src="https://kit.fontawesome.com/6c070c2186.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<nav class="nav">
+
+		<img class="nav__img" src="img/img__brands/brand1.png" alt="logo">
+
+		<ul class="nav__ul">
+			<li><a class="na__ul__a" href="login.html">Iniciar Sesión</a></li>
+			<li><a class="na__ul__a" href="signup.html">Registrarse</a></li>
+			<li>
+				<a class="boton-carrito" href="./carrito.html">
+				<i class="fa-solid fa-bag-shopping"></i>
+				Carrito <span id="numerito" class="numerito">0</span></a>
+			</li>
+		</ul>
+
+		<button class="open-menu" id="open-menu"><i class="fa-solid fa-ellipsis"></i></button>
+
+	</nav>
+
+	<div class="portada">
+
+		<span class="portada__span-top">Descubrí el mundo de los Sneakers,</span>
+		<h1 class="portada__titulo">Descubrí <span class="portada__titulo__span">SNKRHD</span></h1>
+		<p class="portada__p">Creada por SneakerHeads, para SneakerHeads.</p>
+
+	</div>
+
+	<div class="about-us">
+
+		<div class="card-info">
+			<i class="fa-solid fa-handshake"></i>
+			<span class="card-info__span">Starter</span>
+			<p class="card-info__p">Utilizando el codigo 'Starter' accedes a un 20% de descuento en tu primer compra.</p>
+		</div>
+		<div class="card-info card-medio">
+			<i class="fa-solid fa-money-bill-transfer"></i>
+			<span class="card-info__span">Transferencias seguras</span>
+			<p class="card-info__p">Las transferencias de dinero estan resguardadas por Seguridad SSL.</p>
+		</div>
+		<div class="card-info">
+			<i class="fa-solid fa-user-plus"></i>
+			<span class="card-info__span">Suma puntos</span>
+			<p class="card-info__p">Compra, gana puntos y canjealos por increíbles descuentos</p>
+		</div>
+
+	</div>
+
+	
+	<div class="wrapper">
+		
+		<aside>
+
+			<button class="close-menu" id="close-menu">
+				<i class="fa-solid fa-circle-xmark"></i>
+			</button>
+
+			<div>
+				<ul class="menu">
+					<li>
+						<button id="todos" class="boton-menu boton-categoria active"><i class="fa-solid fa-hand-point-up"></i> Todos los productos</button>
+					</li>
+					<li>
+						<button id="Adidas" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-up"></i> Adidas</button>
+					</li>
+					<li>
+						<button id="Nike" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-up"></i> Nike</button>
+					</li>
+					<li>
+						<button id="Jordan" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-up"></i> Jordan</button>
+					</li>
+					<li>
+						<button id="Puma" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-up"></i> Puma</button>
+					</li>
+					<li>
+						<button id="Converse" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-up"></i> Converse</button>
+					</li>
+					<li>
+						<button id="Yeezy" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-up"></i> Yeezy</button>
+					</li>
+					<li class="">
+						<button id="Vans" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-up"></i> Vans</button>
+					</li>
+				</ul>
+			</div>
+			<!-- <footer>
+				<p class="texto-footer">© 2023 SNKRHD</p>
+			</footer> -->
+
+		</aside>
+
+		<main>
+
+			<h2 id="titulo-principal" class="titulo-principal">Productos</h2>
+			<div id="contenedor-productos" class="contenedor-productos">
+				
+				<!-- Contenedor de productos a renderizar -->
+
+			</div>
+
+		</main>
+
+	</div>
+
+	<script src="./js/main.js"></script>
+	<script src="./js/menu.js"></script>
+
+</body>
+</html>
