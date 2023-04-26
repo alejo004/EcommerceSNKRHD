@@ -1,7 +1,8 @@
 const openMenu = document.querySelector("#open-menu")
 const closeMenu = document.querySelector("#close-menu")
 const aside = document.querySelector("aside")
-
+const asideCarrito = document.querySelector(".aside-carrito")
+const closeMenuCart = document.querySelector("#close-carrito")
 
 openMenu.addEventListener("click", () => aside.classList.add("aside-visible"))
 
